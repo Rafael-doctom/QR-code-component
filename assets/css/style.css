@@ -48,96 +48,53 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-@media(max-width: 2560px){
-    .card{
-    width: 20vw;
-    height: 36vh;
-    }
 
-    .imageQrCode{
-    width: 20vw;
-    height: 30vh;
-    }
-
-}
-
-@media(max-width: 1440px){
-    .card{
-    width: 20vw;
-    height: 45vh;
-    }
-
-    .imageQrCode{
-    width: 20vw;
-    height: 30vh;
-    }
-
-}
 
 @media(max-width: 1024px){
     .card{
-    width: 20vw;
-    height: 57vh;
+        width: 200px;
+        height: 450px;
     }
 
     .imageQrCode{
-    width: 20vw;
-    height: 30vh;
+        width: 200px;
+        height: 250px;
+    }
+
+    .title{
+        width: 200px;
+    }
+
+    .paragraph{
+        width: 200px;
     }
 
 }
 
-@media(max-width: 768px){
+@media (min-width: 1440px){
+    .imageQrCode{
+        width: 200px;
+        height: 230px;
+    }
+
     .card{
-    width: 20vw;
-    height: 73vh;
+        width: 200px;
+        height: 430px;
     }
 
-    .imageQrCode{
-    width: 20vw;
-    height: 30vh;
+    .title{
+        width: 200px;
     }
 
+    .paragraph{
+        width: 200px;
+    }
 }
 
-@media(max-width: 425px){
-    .card{
-    width: 23vw;
-    height: 100vh;
-    }
 
-    .imageQrCode{
-    width: 23vw;
-    height: 20vh;
-    }
 
-}
 
-@media(max-width: 375px){
-    .card{
-    width: 23vw;
-    height: 100vh;
-    }
 
-    .imageQrCode{
-    width: 24vw;
-    height: 20vh;
-    }
-
-}
-
-@media(max-width: 320px){
-    .card{
-    width: 23vw;
-    height: 113vh;
-    }
-
-    .imageQrCode{
-    width: 25vw;
-    height: 20vh;
-    }
-
-}
 
 
 
