@@ -48,20 +48,93 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-@media(max-width: 768px){
-    .container{
-        text-align: center;
-    }
-
+@media(max-width: 2560px){
     .card{
-        height: 450px;
-        width: 23%;
+    width: 20vw;
+    height: 36vh;
     }
 
     .imageQrCode{
-        width: 170px;
-        height: 200px;
-        margin: auto;
+    width: 20vw;
+    height: 30vh;
+    }
+
+}
+
+@media(max-width: 1440px){
+    .card{
+    width: 20vw;
+    height: 45vh;
+    }
+
+    .imageQrCode{
+    width: 20vw;
+    height: 30vh;
+    }
+
+}
+
+@media(max-width: 1024px){
+    .card{
+    width: 20vw;
+    height: 57vh;
+    }
+
+    .imageQrCode{
+    width: 20vw;
+    height: 30vh;
+    }
+
+}
+
+@media(max-width: 768px){
+    .card{
+    width: 20vw;
+    height: 73vh;
+    }
+
+    .imageQrCode{
+    width: 20vw;
+    height: 30vh;
+    }
+
+}
+
+@media(max-width: 425px){
+    .card{
+    width: 23vw;
+    height: 100vh;
+    }
+
+    .imageQrCode{
+    width: 23vw;
+    height: 20vh;
+    }
+
+}
+
+@media(max-width: 375px){
+    .card{
+    width: 23vw;
+    height: 100vh;
+    }
+
+    .imageQrCode{
+    width: 24vw;
+    height: 20vh;
+    }
+
+}
+
+@media(max-width: 320px){
+    .card{
+    width: 23vw;
+    height: 113vh;
+    }
+
+    .imageQrCode{
+    width: 25vw;
+    height: 20vh;
     }
 
 }
